@@ -13,9 +13,13 @@ public class HelloSpringApp {
 
 
         //retrieve bean from spring container
-            Coach coach = context.getBean("myCoach", Coach.class);
+            Coach coach = context.getBean("myCoach", Coach.class); //this object has been injected a fortuneservice
         //call methods on bean
         System.out.println(coach.getDailyWorkout());
+
+        //call method of fortunes (new method to test DI)
+
+        System.out.println(coach.getDailyFortune());
         //close context
         context.close();
     }
