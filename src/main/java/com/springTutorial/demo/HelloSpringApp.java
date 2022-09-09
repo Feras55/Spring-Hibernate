@@ -18,8 +18,9 @@ public class HelloSpringApp {
         System.out.println(coach.getDailyWorkout());
 
         //call method of fortunes (new method to test DI)
-
         System.out.println(coach.getDailyFortune());
+
+
         //close context
         context.close();
     }

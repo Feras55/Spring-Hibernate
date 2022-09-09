@@ -7,19 +7,39 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <!-- load properties file-->
+    <context:property-placeholder location="classpath:sports.properties"/>
+
     <!-- Define your dependencies here-->
 
     <bean id = "myFortune"
           class="com.springTutorial.demo.HappyFortuneService">
     </bean>
 
+    <bean id="randomFortune"
+        class="com.springTutorial.demo.RandomFortuneService">
+
+    </bean>
+
     <!-- Define your beans here -->
 
     <bean id="myCoach"
     class="com.springTutorial.demo.BaseballCoach">
-    <!-- Setup constructior injection-->
+    <!-- Setup constructor injection-->
     <constructor-arg  ref="myFortune"/>
 
+    </bean>
+
+    <bean id="myCricketCoach"
+    class="com.springTutorial.demo.CricketCoach">
+
+        <!-- Setup Setter Injection-->
+
+        <property name="myRandomFortuneService" ref="randomFortune"/>
+
+        <!--Literal Values Injection -->
+        <property name="emailAddress" value="${hbk.email}"/>
+        <property name="team" value="${hbk.team}"/>
     </bean>
 
 
