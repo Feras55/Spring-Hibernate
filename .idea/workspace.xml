@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b15d0b-fbe2-45d8-96d4-720f5afa6a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/CricketCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/RandomFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/SetterDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sports.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/BeanLifeCycleDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/BeanScopeDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beanLifeCycle-applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/HelloSpringApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/HelloSpringApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/HelloSpringApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/HelloSpringApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/MyApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/TrackCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/MyApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/TrackCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/TrackCoach.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +41,14 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19310345" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.springTutorial.demo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Courses\Spring and Hibernate\demo\src" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.springTutorial.demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -62,8 +56,44 @@
       <recent name="D:\Courses\Spring and Hibernate\demo\src\main\java" />
       <recent name="D:\Courses\Spring and Hibernate\demo\src\main\java\com\springTutorial\demo" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springTutorial.demo" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springTutorial.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Courses\Spring and Hibernate\demo\src\main\resources" />
+      <recent name="D:\Courses\Spring and Hibernate\demo\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SetterDemoApp">
+  <component name="RunManager" selected="Application.BeanLifeCycleDemoApp">
+    <configuration name="BeanLifeCycleDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springTutorial.demo.BeanLifeCycleDemoApp" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springTutorial.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springTutorial.demo.BeanScopeDemoApp" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springTutorial.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springTutorial.demo.HelloSpringApp" />
       <module name="demo" />
@@ -105,6 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanLifeCycleDemoApp" />
+        <item itemvalue="Application.BeanScopeDemoApp" />
         <item itemvalue="Application.SetterDemoApp" />
         <item itemvalue="Application.HelloSpringApp" />
         <item itemvalue="Application.MyApp" />
@@ -125,10 +157,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1662737474723">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1662989754379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1662737474723" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1662989754379" />
     <state x="599" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1661797524739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -145,30 +177,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1661797656254" />
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1662737509801">
+    <state width="1492" height="226" key="GridCell.Tab.0.bottom" timestamp="1662990746858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1662737509801" />
-    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1662737509800">
+    <state width="1492" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1662990746858" />
+    <state width="1492" height="226" key="GridCell.Tab.0.center" timestamp="1662990746858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1662737509800" />
-    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1662737509800">
+    <state width="1492" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1662990746858" />
+    <state width="1492" height="226" key="GridCell.Tab.0.left" timestamp="1662990746858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1662737509800" />
-    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1662737509800">
+    <state width="1492" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1662990746858" />
+    <state width="1492" height="226" key="GridCell.Tab.0.right" timestamp="1662990746858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1662737509800" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1662672050494">
+    <state width="1492" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1662990746858" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1662986956029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1662672050494" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1662731415698">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1662986956029" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1662986946032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1662731415698" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1662986946032" />
     <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1661794601089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
