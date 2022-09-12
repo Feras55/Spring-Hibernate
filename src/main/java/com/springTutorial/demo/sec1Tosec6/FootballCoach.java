@@ -1,4 +1,4 @@
-package com.springTutorial.demo;
+package com.springTutorial.demo.sec1Tosec6;
 
 public class FootballCoach implements Coach {
     @Override

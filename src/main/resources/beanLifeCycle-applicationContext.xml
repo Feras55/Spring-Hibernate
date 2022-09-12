@@ -10,13 +10,13 @@
     <!-- Define your dependencies here-->
 
     <bean id = "myFortune"
-          class="com.springTutorial.demo.HappyFortuneService">
+          class="com.springTutorial.demo.sec1Tosec6.HappyFortuneService">
     </bean>
 
     <!-- Define your beans here -->
 
     <bean id="myCoach"
-    class="com.springTutorial.demo.TrackCoach"
+    class="com.springTutorial.demo.sec1Tosec6.TrackCoach"
     init-method="myBeanInit"
     destroy-method="myBeanDestruction">
     <!-- Setup constructor injection-->

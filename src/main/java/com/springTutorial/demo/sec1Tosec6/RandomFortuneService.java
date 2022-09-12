@@ -1,4 +1,4 @@
-package com.springTutorial.demo;
+package com.springTutorial.demo.sec1Tosec6;
 
 import java.util.ArrayList;
 import java.util.Random;

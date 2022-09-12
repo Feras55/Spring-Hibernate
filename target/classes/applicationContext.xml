@@ -13,25 +13,25 @@
     <!-- Define your dependencies here-->
 
     <bean id = "myFortune"
-          class="com.springTutorial.demo.HappyFortuneService">
+          class="com.springTutorial.demo.sec1Tosec6.HappyFortuneService">
     </bean>
 
     <bean id="randomFortune"
-        class="com.springTutorial.demo.RandomFortuneService">
+        class="com.springTutorial.demo.sec1Tosec6.RandomFortuneService">
 
     </bean>
 
     <!-- Define your beans here -->
 
     <bean id="myCoach"
-    class="com.springTutorial.demo.BaseballCoach">
+    class="com.springTutorial.demo.sec1Tosec6.BaseballCoach">
     <!-- Setup constructor injection-->
     <constructor-arg  ref="myFortune"/>
 
     </bean>
 
     <bean id="myCricketCoach"
-    class="com.springTutorial.demo.CricketCoach">
+    class="com.springTutorial.demo.sec1Tosec6.CricketCoach">
 
         <!-- Setup Setter Injection-->
 
