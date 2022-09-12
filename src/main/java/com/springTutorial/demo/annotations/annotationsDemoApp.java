@@ -14,6 +14,10 @@ public class annotationsDemoApp {
 
         //call bean methods
         System.out.println(theCoach.getDailyWorkout());
+
+        System.out.println(theCoach.getFortune());
+
+        
         //close container
         context.close();
     }

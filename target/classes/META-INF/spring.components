@@ -1,1 +1,2 @@
+com.springTutorial.demo.annotations.HappyFortuneService=org.springframework.stereotype.Component
 com.springTutorial.demo.annotations.TennisCoach=org.springframework.stereotype.Component

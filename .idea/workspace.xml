@@ -2,41 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b15d0b-fbe2-45d8-96d4-720f5afa6a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/TennisCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/annotationsDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/annotations-applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/HappyFortuneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/BaseballCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/BaseballCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/BeanLifeCycleDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/BeanLifeCycleDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/BeanScopeDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/BeanScopeDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/CricketCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/CricketCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/FootballCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/FootballCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/FortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/FortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/HappyFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/HappyFortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/HelloSpringApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/HelloSpringApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/RandomFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/RandomFortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/SetterDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/SetterDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/sec1Tosec6/TrackCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beanLifeCycle-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beanLifeCycle-applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beanLifeCycle-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beanLifeCycle-applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beanScope-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beanScope-applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/BaseballCoach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/BeanLifeCycleDemoApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/BeanScopeDemoApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/Coach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/CricketCoach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/FootballCoach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/FortuneService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/HappyFortuneService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/HelloSpringApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/RandomFortuneService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/SetterDemoApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springTutorial/demo/TrackCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/TennisCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/annotationsDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTutorial/demo/annotations/annotationsDemoApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,18 +154,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1662992057959">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1662996783215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1662992057959" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1662996783215" />
     <state x="599" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1661797524739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="599" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1661797524739" />
-    <state x="950" y="271" width="444" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1662991994301">
+    <state x="950" y="271" width="444" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1662996688836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="950" y="271" width="444" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1662991994301" />
+    <state x="950" y="271" width="444" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1662996688836" />
     <state x="898" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1662561095969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -203,22 +174,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1661797656254" />
-    <state width="1492" height="226" key="GridCell.Tab.0.bottom" timestamp="1662992384109">
+    <state width="1492" height="226" key="GridCell.Tab.0.bottom" timestamp="1662997210511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1662992384109" />
-    <state width="1492" height="226" key="GridCell.Tab.0.center" timestamp="1662992384108">
+    <state width="1492" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1662997210511" />
+    <state width="1492" height="226" key="GridCell.Tab.0.center" timestamp="1662997210511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1662992384108" />
-    <state width="1492" height="226" key="GridCell.Tab.0.left" timestamp="1662992384108">
+    <state width="1492" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1662997210511" />
+    <state width="1492" height="226" key="GridCell.Tab.0.left" timestamp="1662997210511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1662992384108" />
-    <state width="1492" height="226" key="GridCell.Tab.0.right" timestamp="1662992384108">
+    <state width="1492" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1662997210511" />
+    <state width="1492" height="226" key="GridCell.Tab.0.right" timestamp="1662997210511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1662992384108" />
+    <state width="1492" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1662997210511" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1662986956029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -235,10 +206,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1662574834268" />
-    <state x="809" y="190" key="run.anything.popup" timestamp="1662569276711">
+    <state x="809" y="190" key="run.anything.popup" timestamp="1662996811421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="809" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1662569276711" />
+    <state x="809" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1662996811421" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1662992181778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
