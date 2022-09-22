@@ -2,9 +2,14 @@ package com.springTutorial.demo.annotations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 @Component
+@Scope("prototype")
 public class TennisCoach implements Coach {
 
     //Field Injection: Injecting the field without the need of a constructor or a setter
@@ -44,5 +49,15 @@ public class TennisCoach implements Coach {
     @Override
     public String getFortune(){
         return fortuneService.getFortune();
+    }
+
+    @PostConstruct
+    public void myInit(){
+        System.out.println("Here is my custom init method");
+    }
+
+    @PreDestroy
+    public void myDestructionMethod(){
+        System.out.println("Here I shall die!");
     }
 }
