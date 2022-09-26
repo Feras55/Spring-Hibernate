@@ -1,4 +1,4 @@
-package com.springTutorial.demo.annotations;
+package com.springTutorial.demo.sec7ToSec10;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

@@ -1,8 +1,7 @@
-package com.springTutorial.demo.annotations;
+package com.springTutorial.demo.sec7ToSec10;
 
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 @Component

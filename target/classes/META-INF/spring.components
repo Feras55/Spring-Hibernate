@@ -1,5 +1,6 @@
-com.springTutorial.demo.annotations.DatabaseFortuneService=org.springframework.stereotype.Component
-com.springTutorial.demo.annotations.HappyFortuneService=org.springframework.stereotype.Component
-com.springTutorial.demo.annotations.RESTFortuneService=org.springframework.stereotype.Component
-com.springTutorial.demo.annotations.RandomFortuneService=org.springframework.stereotype.Component
-com.springTutorial.demo.annotations.TennisCoach=org.springframework.stereotype.Component
+com.springTutorial.demo.sec7ToSec10.DatabaseFortuneService=org.springframework.stereotype.Component
+com.springTutorial.demo.sec7ToSec10.HappyFortuneService=org.springframework.stereotype.Component
+com.springTutorial.demo.sec7ToSec10.RESTFortuneService=org.springframework.stereotype.Component
+com.springTutorial.demo.sec7ToSec10.RandomFortuneService=org.springframework.stereotype.Component
+com.springTutorial.demo.sec7ToSec10.SportConfig=org.springframework.stereotype.Component
+com.springTutorial.demo.sec7ToSec10.TennisCoach=org.springframework.stereotype.Component

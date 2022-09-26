@@ -1,4 +1,4 @@
-package com.springTutorial.demo.annotations;
+package com.springTutorial.demo.sec7ToSec10;
 
 
 import org.springframework.stereotype.Component;
@@ -15,7 +15,7 @@ public class DatabaseFortuneService implements FortuneService {
     List<String> fortunes = new ArrayList<>();
 
     public DatabaseFortuneService() throws IOException {
-        fortunes = Files.readAllLines(Paths.get("D:\\Courses\\Spring and Hibernate\\demo\\src\\main\\java\\com\\springTutorial\\demo\\annotations\\fortunes.txt"));
+        fortunes = Files.readAllLines(Paths.get("D:\\Courses\\Spring and Hibernate\\demo\\src\\main\\java\\com\\springTutorial\\demo\\sec7ToSec10\\fortunes.txt"));
     }
 
     @Override
