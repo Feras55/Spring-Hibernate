@@ -1,3 +1,5 @@
 1667044660171	Delete element
 1667049540993	Rename resource 'helloworld-form'
 1667049584403	Delete element
+1667061139554	Encapsulate field 'lastName'
+1667061143408	Encapsulate field 'firstName'
