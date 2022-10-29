@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- load properties file-->
+    <context:property-placeholder location="classpath:sports.properties"/>
+
+    <!-- Define your dependencies here-->
+
+    <bean id = "myFortune"
+          class="com.springTutorial.demo.sec1Tosec6.HappyFortuneService">
+    </bean>
+
+    <bean id="randomFortune"
+        class="com.springTutorial.demo.sec1Tosec6.RandomFortuneService">
+
+    </bean>
+
+    <!-- Define your beans here -->
+
+    <bean id="myCoach"
+    class="com.springTutorial.demo.sec1Tosec6.BaseballCoach">
+        <!-- Setup constructor injection-->
+        <constructor-arg  ref="myFortune"/>
+
+    </bean>
+
+    <bean id="myCricketCoach"
+    class="com.springTutorial.demo.sec1Tosec6.CricketCoach">
+
+        <!-- Setup Setter Injection-->
+
+        <property name="myRandomFortuneService" ref="randomFortune"/>
+
+        <!--Literal Values Injection -->
+        <property name="emailAddress" value="${hbk.email}"/>
+        <property name="team" value="${hbk.team}"/>
+    </bean>
+
+
+</beans>
+
+
+
+
+
