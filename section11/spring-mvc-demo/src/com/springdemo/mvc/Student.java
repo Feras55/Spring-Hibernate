@@ -7,9 +7,18 @@ public class Student {
 	private String firstName;	
 	private String lastName;
 	private String country;
+	private String favoriteLanguage;
 	
 	private LinkedHashMap<String,String>countries;
+	private LinkedHashMap<String,String>languages;
+	private LinkedHashMap<String,String>operatingSystems;
+	private String[] favoriteOperatingSystems;
 	
+	
+	public LinkedHashMap<String, String> getLanguages() {
+		return languages;
+	}
+
 	public Student() {
 		//populate countries map using ISO country code
 		countries = new LinkedHashMap<>();
@@ -18,6 +27,17 @@ public class Student {
 		countries.put("DE","Germany");
 		countries.put("IN","India");
 		countries.put("EG","Egypt");
+		
+		languages = new LinkedHashMap<>();
+		languages.put("Java", "Java");
+		languages.put("C++", "C++");
+		languages.put("C#", "C#");
+		languages.put("Ruby", "Ruby");
+		
+		operatingSystems = new LinkedHashMap<>();
+		operatingSystems.put("Linux","Linux");
+		operatingSystems.put("Mac OS","Mac OS");
+		operatingSystems.put("MS Windows","MS Windows");
 		
 	}
 
@@ -47,6 +67,26 @@ public class Student {
 
 	public void setCountry(String country) {
 		this.country = country;
+	}
+
+	public String getFavoriteLanguage() {
+		return favoriteLanguage;
+	}
+
+	public void setFavoriteLanguage(String favoriteLanguage) {
+		this.favoriteLanguage = favoriteLanguage;
+	}
+
+	public String[] getFavoriteOperatingSystems() {
+		return favoriteOperatingSystems;
+	}
+
+	public void setFavoriteOperatingSystems(String[] favoriteOperatingSystems) {
+		this.favoriteOperatingSystems = favoriteOperatingSystems;
+	}
+
+	public LinkedHashMap<String,String> getOperatingSystems() {
+		return operatingSystems;
 	}
 	
 

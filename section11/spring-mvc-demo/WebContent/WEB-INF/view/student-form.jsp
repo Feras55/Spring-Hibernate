@@ -23,7 +23,18 @@
 		<form:select path="country">
 			<form:options items= "${student.countries}"/>
 		</form:select>
+		<br><br>
+		Favorite Language:
 		
+		<form:radiobuttons path="favoriteLanguage" items = "${student.languages}"/>
+		
+		<br><br>
+		
+		Operating Systems:
+		<form:checkboxes items="${student.operatingSystems}" path="favoriteOperatingSystems"/>
+
+		
+		<br>
 		<input type ="submit" value="Submit"/>
 	</form:form>
 </body>
