@@ -10,6 +10,8 @@
 <body>
 	
 	The student is confirmed: ${student.firstName} ${student.lastName}
+	<br>
+	You are from: ${student.country}
 	
 	
 </body>
