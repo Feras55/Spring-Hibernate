@@ -8,9 +8,15 @@
 
 <body>
 
-<h1> Hello Customer</h1>
+<h1>Welcome to the Confirmation Page</h1>
+<h2> Hello Mr. ${customer.firstName} ${customer.lastName}</h2>
+<br>
+<h2>You have ${customer.freePasses} free passes</h2>
+<br>
+<h2>Your postal code is: ${customer.postalCode}</h2>
 
-You are ${customer.lastName}
+
+
 
 </body>
 
