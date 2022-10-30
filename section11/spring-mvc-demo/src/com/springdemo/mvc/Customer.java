@@ -6,6 +6,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import com.springdemo.mvc.validation.CourseCode;
+
 public class Customer {
 
 	private String firstName;
@@ -25,6 +27,16 @@ public class Customer {
 	@NotNull(message="is required")
 	private String postalCode;
 	
+	@CourseCode //custom validator
+	private String courseCode;
+	
+	
+	public String getCourseCode() {
+		return courseCode;
+	}
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
+	}
 	public String getPostalCode() {
 		return postalCode;
 	}
