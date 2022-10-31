@@ -4,7 +4,6 @@ INDEX VERSION 1.131+D:\Courses\Spring and Hibernate\demo\section11\.metadata\.pl
 1329028075.index
 3110589606.index
 3343019211.index
-678282196.index
 440682294.index
 3274236323.index
 734048683.index
