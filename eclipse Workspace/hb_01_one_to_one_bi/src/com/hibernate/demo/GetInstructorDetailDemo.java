@@ -17,9 +17,9 @@ public class GetInstructorDetailDemo {
 								.configure("hibernate.cfg.xml")
 								.addAnnotatedClass(Instructor.class)
 								.addAnnotatedClass(InstructorDetail.class)
-								.buildSessionFactory();
+							.buildSessionFactory();
 		
-		
+	
 		//Create session
 		Session session = factory.getCurrentSession();
 		
