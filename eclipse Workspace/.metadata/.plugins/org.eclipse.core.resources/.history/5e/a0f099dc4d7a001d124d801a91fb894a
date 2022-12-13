@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98b15d0b-fbe2-45d8-96d4-720f5afa6a06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2E2W6XFwadSAE8D1ZGfoLRY0jLP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring Boot RESTful APIs/springboot-rest-api" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.19310345" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springTutorial.demo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springTutorial.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Courses\Spring and Hibernate\demo\src\main\resources" />
+      <recent name="D:\Courses\Spring and Hibernate\demo\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springTutorial.demo.sec7ToSec10" />
+      <recent name="com.springTutorial.demo.javaCode" />
+      <recent name="com.springTutorial.demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Courses\Spring and Hibernate\demo\src\main\resources" />
+      <recent name="D:\Courses\Spring and Hibernate\demo\src\main\java" />
+      <recent name="D:\Courses\Spring and Hibernate\demo\src\main\java\com\springTutorial\demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.swimJavaConfigDemoApp">
+    <configuration name="BeanLifeCycleDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springTutorial.demo.sec1Tosec6.BeanLifeCycleDemoApp" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springTutorial.demo.sec1Tosec6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springTutorial.demo.sec7ToSec10.BeanScopeDemoApp" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springTutorial.demo.sec7ToSec10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="annotationsDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springTutorial.demo.sec7ToSec10.annotationsDemoApp" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springTutorial.demo.sec7ToSec10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springTutorial.demo.sec7ToSec10.javaConfigDemoApp" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springTutorial.demo.sec7ToSec10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swimJavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springTutorial.demo.sec7ToSec10.swimJavaConfigDemoApp" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springTutorial.demo.sec7ToSec10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.swimJavaConfigDemoApp" />
+        <item itemvalue="Application.javaConfigDemoApp" />
+        <item itemvalue="Application.annotationsDemoApp" />
+        <item itemvalue="Application.BeanLifeCycleDemoApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98b15d0b-fbe2-45d8-96d4-720f5afa6a06" name="Default Changelist" comment="" />
+      <created>1661793984674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661793984674</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1667043468519">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1667043468519" />
+    <state x="2638" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1664214105545">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2638" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1664214105545" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1663084401273" />
+    <state x="599" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1661797524739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1661797524739" />
+    <state x="950" y="271" width="444" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1662996688836">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="950" y="271" width="444" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1662996688836" />
+    <state x="898" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1662561095969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="898" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1662561095969" />
+    <state x="2606" y="211" key="FileChooserDialogImpl" timestamp="1666610087038">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2606" y="211" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1666610087038" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1661797656254" />
+    <state width="1876" height="302" key="GridCell.Tab.0.bottom" timestamp="1664226154963">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="302" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1664226154963" />
+    <state width="1492" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1663874622671" />
+    <state width="1876" height="302" key="GridCell.Tab.0.center" timestamp="1664226154962">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="302" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1664226154962" />
+    <state width="1492" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1663874622671" />
+    <state width="1876" height="302" key="GridCell.Tab.0.left" timestamp="1664226154962">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="302" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1664226154962" />
+    <state width="1492" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1663874622670" />
+    <state width="1876" height="302" key="GridCell.Tab.0.right" timestamp="1664226154962">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="302" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1664226154962" />
+    <state width="1492" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1663874622671" />
+    <state x="2231" y="0" key="SettingsEditor" timestamp="1666610434967">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2231" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1666610434967" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1663872727445" />
+    <state x="2501" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1667043234288">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2501" y="298" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1667043234288" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1664210109615" />
+    <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1661794601089">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1661794601089" />
+    <state x="408" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1662574834268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1662574834268" />
+    <state x="809" y="190" key="run.anything.popup" timestamp="1662996811421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="809" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1662996811421" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1662992181778">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1662992181778" />
+  </component>
+</project>
